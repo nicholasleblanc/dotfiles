@@ -9,7 +9,8 @@ function doIt() {
 		--exclude ".DS_Store" \
     --exclude "brew.sh" \
     --exclude "misc.sh" \
-		--exclude "bootstrap.sh" \
+		--exclude "macos.sh" \
+		--exclude "install.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
