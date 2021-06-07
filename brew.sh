@@ -20,6 +20,7 @@ brew install zsh
 brew install grep
 brew install openssh
 brew install screen
+brew install wget
 
 # Install development runtimes
 brew install go
@@ -47,11 +48,12 @@ brew install --cask kap
 brew install --cask karabiner-elements
 brew install --cask keepingyouawake
 brew install --cask microsoft-office
-brew install --cask miro-formerly-realtimeboard
+brew install --cask miro
 brew install --cask nosql-workbench
 brew install --cask notion
 brew install --cask opera
 brew install --cask postman
+brew install --cask slack
 brew install --cask spotify
 brew install --cask stoplight-studio
 brew install --cask sublime-text
