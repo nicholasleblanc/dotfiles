@@ -13,7 +13,7 @@ brew install git
 brew install ilmbase
 brew install imagemagick
 brew install mailhog
-brew install postgresql@11
+brew install postgresql
 brew install redis
 brew install zlib
 brew install zsh
@@ -48,6 +48,7 @@ brew install --cask kap
 brew install --cask karabiner-elements
 brew install --cask keepingyouawake
 brew install --cask microsoft-office
+brew install --cask microsoft-teams
 brew install --cask miro
 brew install --cask nosql-workbench
 brew install --cask notion
@@ -55,6 +56,7 @@ brew install --cask opera
 brew install --cask postman
 brew install --cask slack
 brew install --cask spotify
+brew install --cask spotmenu
 brew install --cask stoplight-studio
 brew install --cask sublime-text
 brew install --cask tableplus

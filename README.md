@@ -18,3 +18,13 @@ source install.sh
 ```
 ./brew.sh
 ```
+
+# New system setup
+
+Run scripts in the following order:
+
+1. `source install.sh`
+1. `sh init.sh`
+1. `sh macos.sh`
+1. `sh brew.sh`
+1. `sh misc.sh`
