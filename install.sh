@@ -11,6 +11,7 @@ function doIt() {
     --exclude "misc.sh" \
 		--exclude "macos.sh" \
 		--exclude "install.sh" \
+		--exclude "init.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;

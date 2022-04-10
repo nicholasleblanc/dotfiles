@@ -37,7 +37,6 @@ brew install --cask alfred
 brew install --cask anaconda
 brew install --cask appcleaner
 brew install --cask brave-browser
-brew install --cask clickup
 brew install --cask divvy
 brew install --cask docker
 brew install --cask figma
@@ -46,13 +45,19 @@ brew install --cask gitify
 brew install --cask hyper
 brew install --cask kap
 brew install --cask karabiner-elements
+brew install --cask keybase
 brew install --cask keepingyouawake
+brew install --cask krisp
 brew install --cask microsoft-office
 brew install --cask microsoft-teams
+brew install --cask microsoft-auto-update
 brew install --cask miro
+brew install --cask meetingbar
+brew install --cask meld
 brew install --cask nosql-workbench
 brew install --cask notion
 brew install --cask opera
+brew install --cask plex
 brew install --cask postman
 brew install --cask slack
 brew install --cask spotify
@@ -61,6 +66,5 @@ brew install --cask stoplight-studio
 brew install --cask sublime-text
 brew install --cask tableplus
 brew install --cask the-unarchiver
-brew install --cask typora
 brew install --cask visual-studio-code
 brew install --cask workflowy
