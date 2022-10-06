@@ -8,13 +8,12 @@ brew upgrade
 brew install aws-elasticbeanstalk
 brew install aws/tap/aws-sam-cli
 brew install awscli
+brew install bat
+brew install curl
 brew install gcc
 brew install git
 brew install ilmbase
-brew install imagemagick
-brew install mailhog
-brew install postgresql
-brew install redis
+brew install lazydocker
 brew install zlib
 brew install zsh
 brew install grep
@@ -23,42 +22,35 @@ brew install screen
 brew install wget
 
 # Install development runtimes
-brew install go
-brew install rvm
-brew install rbenv
 brew install nvm
-brew install pyenv
-brew install rust
 
 # Install software
 brew install --cask 1password
 brew install --cask adobe-acrobat-reader
 brew install --cask alfred
-brew install --cask anaconda
 brew install --cask appcleaner
 brew install --cask brave-browser
 brew install --cask divvy
 brew install --cask docker
+brew install --cask espanso
 brew install --cask figma
 brew install --cask firefox
 brew install --cask gitify
 brew install --cask hyper
 brew install --cask kap
-brew install --cask karabiner-elements
 brew install --cask keybase
 brew install --cask keepingyouawake
-brew install --cask krisp
 brew install --cask microsoft-office
 brew install --cask microsoft-teams
 brew install --cask microsoft-auto-update
 brew install --cask miro
 brew install --cask meetingbar
 brew install --cask meld
-brew install --cask nosql-workbench
 brew install --cask notion
 brew install --cask opera
 brew install --cask plex
 brew install --cask postman
+brew install --cask sim-daltonism
 brew install --cask slack
 brew install --cask spotify
 brew install --cask spotmenu
