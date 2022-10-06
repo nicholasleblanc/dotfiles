@@ -6,14 +6,14 @@ git pull origin main;
 
 function doIt() {
 	rsync --exclude ".git/" \
-		--exclude ".DS_Store" \
+    --exclude ".DS_Store" \
     --exclude "brew.sh" \
     --exclude "misc.sh" \
 		--exclude "macos.sh" \
 		--exclude "install.sh" \
 		--exclude "init.sh" \
 		--exclude "README.md" \
-		--exclude "LICENSE-MIT.txt" \
+		--exclude "LICENSE" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
