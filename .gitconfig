@@ -1,31 +1,25 @@
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[pull]
-	rebase = false
-[init]
-	defaultBranch = main
-[url "git@github.com:"]
-	insteadOf = "gh:"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-[url "git://github.com/"]
-	insteadOf = "github:"
-[url "git@gist.github.com:"]
-	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-[url "git://gist.github.com/"]
-	insteadOf = "gist:"
-[push]
-	# https://git-scm.com/docs/git-config#git-config-pushdefault
-	default = simple
-	followTags = true
-[core]
-	excludesfile = ~/.gitignore
-	editor = code
 [user]
-	name = Nicholas LeBlanc
-	email = nicholas@quantifi.ca
+        name = Nicholas LeBlanc
+        email = nicholas@quantifi.ca
+        username = nicholasleblanc
+[init]
+        defaultbranch = main
+[pull]
+        rebase = false
+[push]
+        default = simple
+        followtags = true
+        default = current
+        autoSetupRemote = true
+[core]
+        excludesfile = ~/.gitignore-system
+[url "git@github.com:"]
+        insteadof = gh:
+        pushinsteadof = git://github.com/
+[url "git://github.com/"]
+        insteadof = github:
+[url "git@gist.github.com:"]
+        insteadof = gst:
+        pushinsteadof = git://gist.github.com/
+[url "git://gist.github.com/"]
+        insteadof = gist:
