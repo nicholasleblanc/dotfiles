@@ -30,7 +30,6 @@ brew install --cask adobe-acrobat-reader
 brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask brave-browser
-brew install --cask divvy
 brew install --cask docker
 brew install --cask espanso
 brew install --cask figma
@@ -50,6 +49,7 @@ brew install --cask notion
 brew install --cask opera
 brew install --cask plex
 brew install --cask postman
+brew install --cask rectangle
 brew install --cask sim-daltonism
 brew install --cask slack
 brew install --cask spotify
