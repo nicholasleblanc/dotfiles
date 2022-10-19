@@ -1,6 +1,6 @@
 # Nicholas' Dotfiles
 
-# New system setup
+## New system setup
 
 Run scripts in the following order:
 
@@ -10,7 +10,7 @@ Run scripts in the following order:
 4. `sh brew.sh`
 5. `sh install.sh`
 
-# Update Dotfiles
+## Update Dotfiles
 
 To update, cd into your local dotfiles repository and then run:
 
