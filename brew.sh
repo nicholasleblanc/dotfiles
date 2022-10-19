@@ -37,11 +37,7 @@ brew install --cask firefox
 brew install --cask gitify
 brew install --cask hyper
 brew install --cask kap
-brew install --cask keybase
 brew install --cask keepingyouawake
-brew install --cask microsoft-office
-brew install --cask microsoft-teams
-brew install --cask microsoft-auto-update
 brew install --cask miro
 brew install --cask meetingbar
 brew install --cask meld
@@ -54,9 +50,6 @@ brew install --cask sim-daltonism
 brew install --cask slack
 brew install --cask spotify
 brew install --cask spotmenu
-brew install --cask stoplight-studio
 brew install --cask sublime-text
-brew install --cask tableplus
 brew install --cask the-unarchiver
 brew install --cask visual-studio-code
-brew install --cask workflowy

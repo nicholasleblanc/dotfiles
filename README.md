@@ -5,14 +5,15 @@
 Run scripts in the following order:
 
 1. `sh init.sh`
-2. `sh brew.sh`
-3. `sh zsh.sh`
-4. `source install.sh`
+2. `sh mac.sh`
+3. `sh brew.sh`
+4. `sh zsh.sh`
+5. `sh install.sh`
 
 # Update Dotfiles
 
 To update, cd into your local dotfiles repository and then run:
 
 ```
-source install.sh
+sh install.sh
 ```

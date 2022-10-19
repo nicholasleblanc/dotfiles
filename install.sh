@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-cd "$(dirname "${BASH_SOURCE}")";
+cd "$(dirname "${BASH_SOURCE}")"
 
 git pull origin main;
 
 function doIt() {
-	rsync -avh --no-perms ./dotfiles/* ~;
-	source ~/.bash_profile;
+	rsync -avh --no-perms ./dotfiles/ ~
+  echo "\nRestart your terminal to see changes"
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

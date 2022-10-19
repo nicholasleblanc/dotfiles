@@ -109,12 +109,7 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-#export PATH="$HOME/.rbenv/bin:$PATH" eval "$(rbenv init -)"
-
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
-# Added by serverless binary installer
-export PATH="$HOME/.serverless/bin:$PATH"
 
 # tabtab source for packages
 # uninstall by removing these lines

@@ -9,10 +9,10 @@ module.exports = {
     updateChannel: "stable",
 
     // default font size in pixels for all tabs
-    fontSize: 12,
+    fontSize: 13,
 
     // font family with optional fallbacks
-    fontFamily: "MesloLGS NF",
+    fontFamily: "Dank Mono",
 
     // default font weight: 'normal' or 'bold'
     fontWeight: "normal",
@@ -21,7 +21,7 @@ module.exports = {
     fontWeightBold: "bold",
 
     // line height as a relative unit
-    lineHeight: 1,
+    lineHeight: 1.1,
 
     // letter spacing as a relative unit
     letterSpacing: 0,
@@ -146,7 +146,13 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["shades-of-purple-hyper"],
+  plugins: [
+    "hyper-tokyo-night-storm",
+    "hypercwd",
+    "hyper-font-ligatures",
+    "hyper-search",
+    "hyper-quit",
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
